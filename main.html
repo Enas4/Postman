@@ -1,0 +1,168 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <title>Multiple Texts Typing Animation | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
+    }
+
+
+    .wrapper {
+      width: 100%;
+      height: 100%;
+      background-color: #f9f9f9;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+
+    .wrapper .img-wrapper {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: -20px;
+      right: 0px;
+      z-index: 5;
+    }
+
+    .wrapper p {
+      padding-right: 50%;
+      border: 2px solid red
+    }
+
+    .wrapper .wrapper2 {
+
+      display: flex;
+      border: 1px solid rgb(88, 153, 51);
+      /* width:100%; */
+      /* grid-gap: 10px; */
+      /* flex-wrap: wrap; */
+      /* flex-basis: 100%;
+      justify-content: space-between; */
+
+    }
+
+    .wrapper .wrapper2 .two-cards,
+    .wrapper .wrapper2 .four-cards {
+      border: 2px solid rgb(0, 26, 255);
+      padding: 10px;
+      display: flex;
+      grid-gap: 10px;
+    }
+
+    .wrapper .wrapper2 .card {
+      width: 100%;
+      border-radius: 4px;
+      padding: 10px;
+      border: 1px solid rgb(237, 237, 237);
+      background-color: rgb(255, 255, 255);
+    }
+
+    .wrapper .wrapper2 .card:hover {
+      box-shadow: rgb(0 0 0 / 8%) 0px 8px 16px -4px;
+    }
+
+    .wrapper .wrapper2 .card img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .wrapper .wrapper2 .card p {
+      padding: 0px;
+      font-size: 0.8em;
+      word-spacing: 2px;
+    }
+
+    @media only screen and (max-width: 1000px) {
+      .wrapper {
+        height: auto;
+      }
+
+      .wrapper .wrapper2 {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="wrapper">
+    <h3>What is Postman?</h3>
+    <p>Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and
+      streamlines collaboration so you can create better APIs—faster.</p>
+    <div class="img-wrapper"> <img src="cartoon1.svg" alt=""></div>
+
+
+    <div class="wrapper2">
+
+      <div class="two-cards">
+
+        <div class="card">
+          <div> <img src="api.svg" class="card-img-top" alt=".."></div>
+          <div>
+            <h5>API Tools</h5>
+          </div>
+          <div>
+            <p>A comprehensive set of tools that help accelerate the API lifecycle—from design, testing, documentation,
+              and mocking to discovery.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div> <img src="api.svg" class="card-img-top" alt=".."></div>
+          <div>
+            <h5>API Tools</h5>
+          </div>
+          <div>
+            <p>Easily store, catalog, and collaborate around all your API artifacts on one central platform used across
+              teams.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="four-cards">
+
+        <div class="card">
+          <div> <img src="api.svg" class="card-img-top" alt=".."></div>
+          <div>
+            <h5>API Tools</h5>
+          </div>
+          <div>
+            <p>Organize your API work and collaborate with teammates across your organization or stakeholder across the
+              world.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div> <img src="api.svg" class="card-img-top" alt=".."></div>
+          <div>
+            <h5>API Tools</h5>
+          </div>
+          <div>
+            <p>Improve API operations by leveraging advance features such as search, notifications,
+              alerts and security warning, reporting and more.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  <!-- </div> -->
+  <div> <button type="button" class="btn btn-outline-primary">Primary</button></div>
+
+  </div>
+
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
