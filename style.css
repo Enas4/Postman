@@ -357,7 +357,7 @@ main .main-div1 .input-group .input-group-text:hover,main .main-div1 button:hove
       background: #f15d27;
 }
 main .main-div2{
-    background: url("yellow.jpeg");
+    background: url("assets/yellow.jpeg");
     width: 68%;
     background-repeat: no-repeat;
     background-size: cover;
